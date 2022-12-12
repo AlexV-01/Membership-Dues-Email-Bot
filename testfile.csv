@@ -1,0 +1,4 @@
+﻿MemberID,RecordId,RECORD #,TITLE,LNAME,NAME1,ADDR,CITY_ST,ZIP,amount-2018,receipt-2018,paid-2018,amount-2019,receipt-2019,paid-2019,amount-2020,receipt-2020,paid-2020,amount-2021,receipt-2021,paid-2021,amount-2022,receipt-2022,paid-2022,amount-2023,receipt-2023,paid-2023,Email:
+1,28,1500,,Lname1,Fname1,x,a,12345,$50.00 ,30465,3/25/2019,,,,$600.00 ,,,,,,,,,,,,email1@gmail.com
+2,38,1023,MR.,Lname2,Fname2,y,b,12345,$50.00 ,28163,1/5/2018,$50.00 ,29905,11/26/2018,$50.00 ,31996,5/5/2020,$50.00 ,31996,5/5/2020,,,,,,,email2@gmail.com
+5,47,1054,MR.,Lname3,Fname3,z,c,12345,$50.00 ,73934,,,,,$300.00 ,,,,,,,,,,,,email3@gmail.com

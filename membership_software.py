@@ -21,9 +21,9 @@ def emailLogin(): # returns the driver for sendEmail function to use
         driver.get('https://account.proton.me/login?language=en')
         sleep(2)
         username = driver.find_element('id', 'username')
-        username.send_keys("automatedtest@protonmail.com") # this is the email address of the bot. Using protonmail
+        username.send_keys(INSERT EMAIL) # this is the email address of the bot. Using protonmail
         password = driver.find_element('id', 'password')
-        password.send_keys("moosemilk")
+        password.send_keys(INSERT PASSWORD) # password is not shown here
         password.submit()
         sleep(14)
     except Exception as e:
@@ -91,7 +91,7 @@ def main():
     valid = False
     while not valid:
         try:
-            df = makeDataFrame('testfile.csv', year) # 'data.csv' is the input file
+            df = makeDataFrame('testfile.csv', year) # 'testfile.csv' is the input file
             valid = True
         except:
             print(colored("This year does not exist in the database. Choose another year.", 'red'))
